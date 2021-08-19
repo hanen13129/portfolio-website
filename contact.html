@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> portfolio</title>
+    <meta charset="utf-8">
+    <link rel="icon" href="wikipedia.ico"/>   
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Style+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+
+  <header>
+    <div id="logo">
+      <img src=picture/photo1.jpg class="profile"alt="logo">
+      <!--<img src="img/lisa-gringl.png" class="profile__portrait" alt="Lisa Gringl Portrait">-->
+    </div>
+    <nav>
+      <ul>    
+        <li><a href ="index.html"><id="home"> Home </id> </a></li>
+        <li><a href ="Skills.html" target="_blank"> Skills </a></li>
+        <li><a href ="work.html"> work </a></li>
+        <li><a href ="contact.html"> Contact </a></li>
+      </ul>
+    </nav>
+  </header>
+  <body>
+          <br><h1>Contact</h1>
+
+       <div>
+           Hanen Ben Hassen<br>
+           Am Fließ 5 <br>
+           13129 Berlin<br>
+           Deutschland <br>
+              <br>
+           Tel:<a href="tel:+49 176 2187 9918"> +49 176 2187 9918</a><br>
+           Skype: <a href="skype:hanenbenhassen">benhassenhanen</a> <br>
+           <a href="mailto:benhassenhanen@gmail.com"> Contact me</a> <br>
+
+       </div>
+
+
+
+  <!--<form action="/login-form-action" method="post">
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="user_email">
+    <button type="submit">Register</button>
+  </form>-->
+  <form action="" method="post" id="contact-form">
+    <label class="standard-label" for="contact-email">Email: </label><!-- for pour la lisibilite -->
+    <input type="email" id="contact-email" required><br><br> <!-- required  champs obligatoire -->
+  
+    <label class="standard-label"for ="telephone_number">Telephone: </label>
+    <input type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}"><br><br> <!-- pattern critere de numero-->
+    
+  
+    <label class="standard-label"for ="message">Message: </label><br><br>
+    <textarea required maxlength="240"></textarea><!-- to provide more space if the standard / maxlength 240  max 240 caratere <input-->
+    <input type="submit" value="Send message">
+  </form>
+  <!--<ul>
+    <li data-engine-type="electric">Tesla</li>
+    <li data-engine-type="hybrid">BMW i8</li>
+    <li data-engine-type="gas">VW Passat</li>
+    <li data-engine-type="gas">Audi A4</li>
+  </ul>-->
+  <script src="js/tota11y.min.js"></script>
+</body>
+</html>

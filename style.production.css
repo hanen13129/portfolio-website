@@ -1,0 +1,60 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+
+
+.box__wrapper {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 20px 1fr 20px 1fr 20px 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding: 20px;
+    font-family: sans-serif;
+  }
+  
+  .box-primary {
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-box-shadow: 4px 3px 19px 0px rgba(0,0,0,0.3);
+            box-shadow: 4px 3px 19px 0px rgba(0,0,0,0.3);
+    background-color: #112055;
+    color: #fff;
+  }
+  
+  .box-primary-lighter {
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-box-shadow: 4px 3px 19px 0px rgba(0,0,0,0.3);
+            box-shadow: 4px 3px 19px 0px rgba(0,0,0,0.3);
+    
+  }
+  
+  .box-primary-darker {
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-box-shadow: 4px 3px 19px 0px rgba(0,0,0,0.3);
+            box-shadow: 4px 3px 19px 0px rgba(0,0,0,0.3);
+  }
+  
+  .box-secondary {
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-box-shadow: 4px 3px 19px 0px rgba(0,0,0,0.3);
+            box-shadow: 4px 3px 19px 0px rgba(0,0,0,0.3);
+    background-color: #4f9d92;
+    color: #000;
+  }
+  a {
+    color: #357b70;
+  }
+  
+  
+    
+    
+    
+    
