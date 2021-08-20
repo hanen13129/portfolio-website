@@ -64,15 +64,16 @@ nav ul li {
      padding-left: 5px;
      padding: 10px 20px ; padding top and botton 10px , padding left w right 20
      padding:10px 20px 30px padding top 10 padding left, right  20 padding botton 30 */
-     
+     /*clear:both; /* dima tosta3ml m3a float , float tbadel la postion ymin wela ysar alors l element eli ba3dha bedabet na3mlouli clear bech yab9a fi blasstou ma yatla3ech l blasete el element eli 9ablou eli 3manelou el float */
 
      
 
 } 
-nav ul {
-    float: right;/* move the ul in right side */
-    clear:both; /* dima tosta3ml m3a float , float tbadel la postion ymin wela ysar alors l element eli ba3dha bedabet na3mlouli clear bech yab9a fi blasstou ma yatla3ech l blasete el element eli 9ablou eli 3manelou el float */
-    margin-top: -80px;
+
+.container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
 
     img{
@@ -186,9 +187,8 @@ button:hover, button:focus {
 padding: 0px;
 border: 2px solid black;
 position: relative;
-float: left;
+float: left; /* move the ul in left side */
 margin: 10px;
-
 
 }
 .profile{
