@@ -3,19 +3,23 @@
   --secondary-color: #e0b354;
   --dark-grey: #2b2b2b;
 }
-a { color: var(--primary-color); }
 
-body { /* background-color:#d6dadb; */
-  font-family: 'Lato', sans-serif;
-  text-align: justify;/* texr justifier */
-  letter-spacing: 2px;/* espace entre les lettres */
-  word-spacing: 2px;/* espace entre les mots */
+a {
+  color: var(--primary-color);
+}
+
+body {
+  /* background-color:#d6dadb; */
+  font-family: "Lato", sans-serif;
+  text-align: justify; /* texr justifier */
+  letter-spacing: 2px; /* espace entre les lettres */
+  word-spacing: 2px; /* espace entre les mots */
   font-weight: 500; /* le text sera en gras  les degree sont de 100 -200-300 a 900 or lighter, normal , bold, bolder  */
-  font-size: 16px;/* taille des caractères */
+  font-size: 16px; /* taille des caractères */
   text-transform: capitalize; /* lowercase changer les lettres en miniscule , uppercase majuscule , capitalize mettre en majuscule que la premiere lettre */
   font-variant: small-caps; /* transforms all lowercase letters into small caps—uppercase letters set at the same height as their surrounding lowercase letters */
   line-height: 1.6; /* espace entre les lignes */
-  background-image: url('picture/ph.jpg');
+  background-image: url("picture/ph.jpg");
   background-repeat: repeat;
   background-attachment: fixed; /* faza tres utils */
 
@@ -34,7 +38,8 @@ body { /* background-color:#d6dadb; */
 }
 
 nav ul li :hover,
-a:focus {  /* No underlining when hovering over a link */
+a:focus {
+  /* No underlining when hovering over a link */
   color: rgb(160, 98, 103);
   font-size: 25px;
 }
@@ -95,7 +100,7 @@ footer div img {
 footer {
   margin: 0 auto;
   width: 100%;
-  display: flex;/* display flex et flex-direction: column sont ensemble pour mettre le contenue au center de la page */
+  display: flex; /* display flex et flex-direction: column sont ensemble pour mettre le contenue au center de la page */
   flex-direction: column;
   text-align: center;
 }
@@ -123,7 +128,7 @@ h1 {
 }
 
 button {
-  border: none;   /* overwrites browser defaults and resets the border */
+  border: none; /* overwrites browser defaults and resets the border */
   font-family: inherit;
   text-decoration: none;
   display: inline-block;
@@ -131,7 +136,7 @@ button {
   color: white;
   padding: 10px; /* space between the text and the border of button */
   border-radius: 3px; /* gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format carree rond et non egue */
-  border-bottom: 2px solid rgba(0, 0, 0, 0.3);/* border color */
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3); /* border color */
   margin-left: 750px;
   box-shadow: 5px 10px 30px white; /* shadow pour le box */
   transition-duration: 0.2s;
@@ -141,7 +146,8 @@ button {
 }
 
 button:hover,
-button:focus { /* lets the mouse appear as a hand when hovering over the button */
+button:focus {
+  /* lets the mouse appear as a hand when hovering over the button */
   cursor: pointer; /* reduces the opacity of the button to 80% */
   opacity: 0.8;
 }
