@@ -12,21 +12,22 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
   </head>
 
-  <header>
-    <div id="logo">
-      <img src=picture/photo1.jpg class="profile" alt="logo">
-      <!--<img src="img/lisa-gringl.png" class="profile__portrait" alt="Lisa Gringl Portrait">-->
-    </div>
-    <nav>
-      <ul>    
-        <li><a href ="index.html"><id="home"> Home </id> </a></li>
-        <li><a href ="skills.html" target="_blank"> Skills </a></li>
-        <li><a href ="work.html"> work </a></li>
-        <li><a href ="contact.html"> Contact </a></li>
-      </ul>
-    </nav>
-  </header>
+ 
   <body>
+    <header>
+      <div id="logo">
+        <img src=picture/photo1.jpg class="profile" alt="logo">
+        <!--<img src="img/lisa-gringl.png" class="profile__portrait" alt="Lisa Gringl Portrait">-->
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html"> Home </a></li>
+          <li><a href="skills.html" target="_blank"> Skills </a></li>
+          <li><a href="work.html"> work </a></li>
+          <li><a href="contact.html"> Contact </a></li>
+        </ul>
+      </nav>
+    </header>
           <br><h1>Contact</h1>
 
        <div>
@@ -35,7 +36,7 @@
            13129 Berlin<br>
            Deutschland <br>
               <br>
-           Tel:<a href="tel:+49 176 2187 9918"> +49 176 2187 9918</a><br>
+           Tel:<a href="tel:+4917621879918"> +49 176 2187 9918</a><br>
            Skype: <a href="skype:hanenbenhassen">benhassenhanen</a> <br>
            <a href="mailto:benhassenhanen@gmail.com"> Contact me</a> <br>
 
@@ -51,12 +52,9 @@
   <form action="" method="post" id="contact-form">
     <label class="standard-label" for="contact-email">Email: </label><!-- for pour la lisibilite -->
     <input type="email" id="contact-email" required><br><br> <!-- required  champs obligatoire -->
-  
-    <label class="standard-label"for ="telephone_number">Telephone: </label>
+    <label class="standard-label" for ="telephone_number">Telephone: </label>
     <input type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}"><br><br> <!-- pattern critere de numero-->
-    
-  
-    <label class="standard-label"for ="message">Message: </label><br><br>
+    <label class="standard-label" for ="message">Message: </label><br><br>
     <textarea required maxlength="240"></textarea><!-- to provide more space if the standard / maxlength 240  max 240 caratere <input-->
     <input type="submit" value="Send message">
   </form>
