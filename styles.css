@@ -77,12 +77,11 @@ img {
   width: 250px;
   clip-path: circle();
   margin-left: 400px;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
-main.intro {
+.intro {
   margin-left: 680px;
-  margin-top: 5px;
 }
 
 span {
