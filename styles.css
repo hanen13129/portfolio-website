@@ -2,6 +2,8 @@
   --primary-color: #357b70;
   --secondary-color: #e0b354;
   --dark-grey: #2b2b2b;
+  --white-color: #fff;
+  --weight: 500;
 }
 
 a {
@@ -14,7 +16,11 @@ body {
   text-align: justify; /* texr justifier */
   letter-spacing: 2px; /* espace entre les lettres */
   word-spacing: 2px; /* espace entre les mots */
-  font-weight: 500; /* le text sera en gras  les degree sont de 100 -200-300 a 900 or lighter, normal , bold, bolder  */
+
+  font-weight: var(
+    --weight
+  ); /* le text sera en gras  les degree sont de 100 -200-300 a 900 or lighter, normal , bold, bolder  */
+
   font-size: 16px; /* taille des caractères */
   text-transform: capitalize; /* lowercase changer les lettres en miniscule , uppercase majuscule , capitalize mettre en majuscule que la premiere lettre */
   font-variant: small-caps; /* transforms all lowercase letters into small caps—uppercase letters set at the same height as their surrounding lowercase letters */
@@ -33,20 +39,20 @@ body {
 .hello {
   color: brown;
   text-align: left;
-  margin-left: 680px;
-  margin-top: -200px;
+  margin-left: 780px;
+  margin-top: -450px;
 }
 
 nav ul li :hover,
 a:focus {
   /* No underlining when hovering over a link */
-  color: rgb(160, 98, 103);
+  color: var(--primary-color);
   font-size: 25px;
 }
 
 a:visited {
   /* visited link */
-  color: brown;
+  color: var(--secondary-color);
 }
 
 nav ul li a {
@@ -81,16 +87,16 @@ img {
 .image {
   width: 250px;
   clip-path: circle();
-  margin-left: 400px;
-  margin-top: 50px;
+  margin-left: 500px;
+  margin-bottom: 250px;
 }
 
 .intro {
-  margin-left: 680px;
+  margin-left: 780px;
 }
 
 span {
-  color: blue;
+  color: var(-dark-grey);
 }
 
 footer div img {
@@ -98,7 +104,6 @@ footer div img {
 }
 
 footer {
-  margin: 0 auto;
   width: 100%;
   display: flex; /* display flex et flex-direction: column sont ensemble pour mettre le contenue au center de la page */
   flex-direction: column;
@@ -106,7 +111,7 @@ footer {
 }
 
 h1 {
-  color: #dc4444;
+  color: var (--secondary-color);
   font-size: 30px; /* au lieu d ecrire les trois ligne border-top-width,border-top-style,border-top-color on êut tt simplement ecrire border-top 10px solid yellow
     border-top-width: 10px;largeur de 10 ,  border-top-style:solid ;/*bordure de type solide , pareille pour le right , left botton
     border-top-color: yellow;
@@ -133,7 +138,7 @@ button {
   text-decoration: none;
   display: inline-block;
   background-color: #357b70;
-  color: white;
+  color: var(--white-color);
   padding: 10px; /* space between the text and the border of button */
   border-radius: 3px; /* gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format carree rond et non egue */
   border-bottom: 2px solid rgba(0, 0, 0, 0.3); /* border color */
