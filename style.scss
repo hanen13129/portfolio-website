@@ -1,0 +1,51 @@
+$font-stack: sans-serif;
+$primary-color: #112055;
+$secondary-color: rgba(0, 0, 0, 0.3);
+
+.box__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+  padding: 20px;
+  font-family: $font-stack;
+}
+
+%btn {
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 4px 3px 19px 0 px $secondary-color;
+
+  &:hover {
+    color: gold;
+  }
+}
+
+.box-primary {
+  @extend %btn;
+
+  background-color: $secondary-color;
+  color: #fff;
+}
+
+.box-primary-lighter {
+  @extend %btn;
+
+  $primary-color-lighter: lighten ($secondary-color, 20%);
+
+  a:hover {
+    color: $primary-color;
+  }
+}
+
+.box-primary-darker {
+  @extend %btn;
+
+  $primary-color-darker: darken($secondary-color, 20%);
+}
+
+.box-secondary {
+  @extend %btn;
+
+  background-color: #4f9d92;
+  color: #000;
+}
