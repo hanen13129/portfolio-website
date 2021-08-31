@@ -188,10 +188,12 @@ button:focus {
 }
 
 .profile {
-  width: 200px;
-  height: 100px;
+  width: 100px;
+  height: 70px;
 }
-
+#work {
+  text-align: center;
+}
 header {
   display: inline-block;
   width: 100%;
@@ -204,7 +206,7 @@ header {
 }
 
 .grid__item {
-  background-color: lightgray;
+  background-color: white;
 }
 
 .grid {
@@ -325,4 +327,7 @@ table {
   display: table;
   text-align: center;
   clear: both;
+}
+#contact {
+  text-align: center;
 }
