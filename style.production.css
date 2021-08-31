@@ -5,14 +5,8 @@
 * Browsers: last 4 version
 */
 
-:root {
-  --primary-color: #357b70;
-  --secondary-color: #e0b354;
-  --dark-grey: #2b2b2b;
-}
-
 a {
-  color: var(--primary-color);
+  color: #357b70;
 }
 
 body {
@@ -21,6 +15,7 @@ body {
   text-align: justify; /* texr justifier */
   letter-spacing: 2px; /* espace entre les lettres */
   word-spacing: 2px; /* espace entre les mots */
+
   font-weight: 500; /* le text sera en gras  les degree sont de 100 -200-300 a 900 or lighter, normal , bold, bolder  */
   font-size: 16px; /* taille des caractères */
   text-transform: capitalize; /* lowercase changer les lettres en miniscule , uppercase majuscule , capitalize mettre en majuscule que la premiere lettre */
@@ -44,16 +39,21 @@ body {
   margin-top: -450px;
 }
 
-nav ul li :hover,
+nav ul li :hover {
+  /* No underlining when hovering over a link */
+  color: #357b70;
+  font-size: 25px;
+}
+
 a:focus {
   /* No underlining when hovering over a link */
-  color: rgb(160, 98, 103);
+  color: #357b70;
   font-size: 25px;
 }
 
 a:visited {
   /* visited link */
-  color: brown;
+  color: #e0b354;
 }
 
 nav ul li a {
@@ -102,7 +102,7 @@ img {
 }
 
 span {
-  color: blue;
+  color: var(-dark-grey);
 }
 
 footer div img {
@@ -122,7 +122,7 @@ footer {
 }
 
 h1 {
-  color: #dc4444;
+  color: var (--secondary-color);
   font-size: 30px; /* au lieu d ecrire les trois ligne border-top-width,border-top-style,border-top-color on êut tt simplement ecrire border-top 10px solid yellow
     border-top-width: 10px;largeur de 10 ,  border-top-style:solid ;/*bordure de type solide , pareille pour le right , left botton
     border-top-color: yellow;
@@ -149,7 +149,7 @@ button {
   text-decoration: none;
   display: inline-block;
   background-color: #357b70;
-  color: white;
+  color: #fff;
   padding: 10px; /* space between the text and the border of button */
   border-radius: 3px; /* gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format carree rond et non egue */
   border-bottom: 2px solid rgba(0, 0, 0, 0.3); /* border color */
@@ -390,4 +390,16 @@ header {
 .cloud-back {
   -webkit-animation: 34s cloud-move-reverse infinite alternate linear;
   animation: 34s cloud-move-reverse infinite alternate linear;
+}
+
+.berlin-illustration {
+  float: right;
+  margin-right: 300px;
+  margin-top: 50px;
+}
+table {
+  margin: 50px auto;
+  display: table;
+  text-align: center;
+  clear: both;
 }
