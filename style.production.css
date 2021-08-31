@@ -105,6 +105,10 @@ span {
   color: var(-dark-grey);
 }
 
+#contact {
+  text-align: center;
+}
+
 footer div img {
   width: 20px;
 }
@@ -195,18 +199,18 @@ button:focus {
     background-color: orange;
     background: radial-gradient(circle at center center, red 0% , blue 100%); /* circle , ellipse , format d afficharge  center center , top left , center right , bottom right , ...
 } */
-
+#work {
+  text-align: center;
+}
 .profile {
-  padding: 0 px;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   position: relative;
   float: left; /* move the ul in left side */
-  margin: 10px;
 }
 
 .profile {
-  width: 200px;
-  height: 100px;
+  width: 100px;
+  height: 70px;
 }
 
 header {
@@ -224,7 +228,7 @@ header {
 }
 
 .grid__item {
-  background-color: lightgray;
+  background-color: white;
 }
 
 .grid {
