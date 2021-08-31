@@ -20,7 +20,6 @@ body {
   font-weight: var(
     --weight
   ); /* le text sera en gras  les degree sont de 100 -200-300 a 900 or lighter, normal , bold, bolder  */
-
   font-size: 16px; /* taille des caractères */
   text-transform: capitalize; /* lowercase changer les lettres en miniscule , uppercase majuscule , capitalize mettre en majuscule que la premiere lettre */
   font-variant: small-caps; /* transforms all lowercase letters into small caps—uppercase letters set at the same height as their surrounding lowercase letters */
@@ -314,4 +313,16 @@ header {
 
 .cloud-back {
   animation: 34s cloud-move-reverse infinite alternate linear;
+}
+.berlin-illustration {
+  float: right;
+  margin-right: 300px;
+  margin-top: 50px;
+}
+
+table {
+  margin: 50px auto;
+  display: table;
+  text-align: center;
+  clear: both;
 }
